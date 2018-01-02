@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="4afb1ef424a54515b75442239542d618" Name="Diagram1" ZoomLevel="81">
+        <EntityTypeShape EntityType="workullModel.PersonProjectRelation" Width="1.5" PointX="4" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="workullModel.Person" Width="1.5" PointX="9.125" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="workullModel.ProjectComment" Width="1.5" PointX="9.125" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="workullModel.Project" Width="1.5" PointX="6.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="workullModel.ProjectStatus" Width="1.5" PointX="6.625" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="workullModel.TaskComment" Width="1.5" PointX="11.125" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="workullModel.TaskPriority" Width="1.5" PointX="14.25" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="workullModel.Task" Width="1.5" PointX="11.125" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="workullModel.TaskStatus" Width="1.5" PointX="14.25" PointY="5.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="workullModel.TaskType" Width="1.5" PointX="14.25" PointY="7.625" IsExpanded="true" />
+        <AssociationConnector Association="workullModel.FK_Table_ToPersons" ManuallyRouted="false" />
+        <AssociationConnector Association="workullModel.FK_Table_ToProjects" ManuallyRouted="false" >
+        </AssociationConnector>
+        <AssociationConnector Association="workullModel.FK_ProjectComments_ToPersons" ManuallyRouted="false" />
+        <AssociationConnector Association="workullModel.FK_Projects_ToPerson" ManuallyRouted="false" />
+        <AssociationConnector Association="workullModel.FK_TaskComments_ToPerson" ManuallyRouted="false" />
+        <AssociationConnector Association="workullModel.FK_Tasks_ToPersons" ManuallyRouted="false" />
+        <AssociationConnector Association="workullModel.FK_ProjectComments_ToProjects" ManuallyRouted="false" />
+        <AssociationConnector Association="workullModel.FK_Projects_ToProjectStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="workullModel.FK_Tasks_ToProjects" ManuallyRouted="false" />
+        <AssociationConnector Association="workullModel.FK_TaskComments_ToTasks" ManuallyRouted="false" />
+        <AssociationConnector Association="workullModel.FK_Tasks_ToTaskPriorities" ManuallyRouted="false" />
+        <AssociationConnector Association="workullModel.FK_Tasks_ToTaskStatuses" ManuallyRouted="false" />
+        <AssociationConnector Association="workullModel.FK_Tasks_ToTaskTypes" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
