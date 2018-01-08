@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm4="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm5="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/LogicalClassDesigner"
+  dslVersion="1.0.0.0"
+  Id="bca96088-382a-446e-ba71-4975f434b1a9"
+  name="Report"
+  visibility="Private" xmlns="http://schemas.microsoft.com/dsltools/ModelStore">
+  <referencesInternal>
+    <reference
+      Id="cdc0241e-7baa-4ebd-9ea5-419227b2464f"
+      handle="viewcode://./CodeSchema_Namespace?Namespace%3DWorkull.Models.Report"
+      tag="ViewCode" />
+  </referencesInternal>
+  <packagedElements>
+    <packageHasNamedElement>
+      <class
+        Id="76c8f4fc-dbd7-49c5-9672-d2a03f1700b6"
+        name="ReportGenerator"
+        isAbstract="true"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="46ceab84-a72a-42aa-b5f7-ced27c2ec4e5"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FЖДТУ%2F4 курс%2FКурсова%2FWorkull%2FWorkull%2Fbin%2FWorkull.dll&quot; Namespace%3DWorkull.Models.Report Type%3DReportGenerator"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="d632a117-5008-4e55-a809-2c78eb91068e"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="62fc994e-4528-4285-8cc0-6c5830fab006">
+                <propertyInstance
+                  Id="783db3d4-550c-419b-ab0a-53c9a5fe869e"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f32acd0f-41a7-44d7-9a0d-6630c34344e9">
+                <propertyInstance
+                  Id="8b5f1553-7409-45be-b011-26b3bae3776e"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f948669b-18a8-4623-89fd-a65714d286f9">
+                <propertyInstance
+                  Id="95f4264c-14c9-4fa3-b4a5-42e13fa415ac"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="c397ea43-9172-42f9-bdeb-383d782f060e">
+                <propertyInstance
+                  Id="d2478dac-b798-4ee8-bf6f-380618cdf447"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ffe40676-f94e-405f-bfb5-8e6b2d71e1a7">
+                <propertyInstance
+                  Id="f04378c5-c935-4d5f-947e-6171f450dd2c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="544058be-001e-40f5-99c9-cc64e08b6c08"
+            name="GetReport"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="true"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="9663f063-530f-4a43-8208-ab2a2e0721e2"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FЖДТУ%2F4 курс%2FКурсова%2FWorkull%2FWorkull%2Fbin%2FWorkull.dll&quot; Namespace%3DWorkull.Models.Report Type%3DReportGenerator Member%3DGetReport"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="c90caabe-5617-4b35-921c-39b8e3263847"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a6c65d4a-87c8-4b61-bdf8-2a7c0d78fbf0">
+                    <propertyInstance
+                      Id="20f3c33a-aa46-4273-b11d-ff3c1c6153de"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="e22b18d3-660b-484b-9ee2-6733e279624c">
+                    <propertyInstance
+                      Id="528f1974-53d5-4462-a704-c4fb43fd620a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="ac43db2a-8c2d-4ee4-ac21-12f9ff379ab8">
+                    <propertyInstance
+                      Id="af5d7bd2-2cc2-4fc3-a27e-c8cc65a85c6f"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="811699dd-6e69-4e58-9eb5-2fed229a83ee">
+                    <propertyInstance
+                      Id="400aed0d-620e-494e-8e3b-b816e6426913"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="089f0526-6d6d-4e42-9b3d-5c6bc510d50b">
+                    <propertyInstance
+                      Id="c2c8fa8d-5905-4027-a2da-12d0939127a6"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="3991c954-02da-4f33-9956-5125e33ab627">
+                    <propertyInstance
+                      Id="e33956d6-925e-4845-82e8-51d957902276"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="001a43bf-6952-4a78-af9b-783de7c21bb8"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="71c254af-b68b-488a-81c3-d06693139aff"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package5_1826.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="a43c422d-63aa-452a-bca7-920f7f42ef9f"
+            name="ReportGenerator"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b1baa521-605e-4717-a0ce-2b842d39006f"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FЖДТУ%2F4 курс%2FКурсова%2FWorkull%2FWorkull%2Fbin%2FWorkull.dll&quot; Namespace%3DWorkull.Models.Report Type%3DReportGenerator Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="e90b2c30-34ff-456b-8620-ce1960836a64"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="63ec305d-1392-4f98-9960-721516a76744">
+                    <propertyInstance
+                      Id="f6fbc33c-181b-4d58-82ad-374223066bae"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="724e909c-ab91-435f-9d41-49d159a96ae7">
+                    <propertyInstance
+                      Id="deae29dd-a4eb-4847-a9cd-df0bad684634"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a10eb88f-47f3-4209-b2ce-6b29f694ee8e">
+                    <propertyInstance
+                      Id="b951705e-271b-42c8-9367-50ab36e89467"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="de0b4def-10b0-4a31-9154-d2115ab52480">
+                    <propertyInstance
+                      Id="71a03340-34fb-4465-8d97-73eae7ea4f42"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="b4fd49e8-6291-4c70-8b5a-4fd2cf91dd66">
+                    <propertyInstance
+                      Id="85e31a4f-dbb6-445f-9c9d-d289cebcc049"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5cdb4f29-e2a7-4428-87c2-035f8869191b">
+                    <propertyInstance
+                      Id="af8f4ed4-0919-48e2-b533-ff3b7d778638"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="fe31b9cf-3693-428d-989d-90f58ba6477b"
+        name="HtmlReportGenerator"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="e1c5726f-c71f-4cd9-ba85-62795973fceb"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FЖДТУ%2F4 курс%2FКурсова%2FWorkull%2FWorkull%2Fbin%2FWorkull.dll&quot; Namespace%3DWorkull.Models.Report Type%3DHtmlReportGenerator"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="846b7fcb-c43e-4f01-b2cb-fa02b52361db"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="ebce9f71-c8cf-4079-b117-45c116b09cc3">
+                <propertyInstance
+                  Id="d2130b02-e385-427a-997c-e1c3d97010bb"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="d097fbed-1cfe-4a26-a318-c58ef8fbf072">
+                <propertyInstance
+                  Id="9fb058b8-eac1-411e-a21b-f526d028d723"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="2e1e3e02-cd10-4c52-81af-87502f517e2d">
+                <propertyInstance
+                  Id="6894a4fc-0208-4761-954a-f4e5e5ea9694"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="f485ee75-4c2a-4347-ad0d-5f9f3a4ca848">
+                <propertyInstance
+                  Id="d49f60c1-ebc6-48fe-8356-d3a43d52a027"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="1652c50a-af06-442d-a7a2-bcc2cfab993f">
+                <propertyInstance
+                  Id="65f5a100-b09a-4376-b792-279656346493"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="94fe6a0d-e995-478b-9e36-d1f6246ca6c1"
+            isSubstitutable="false">
+            <classMoniker
+              Id="76c8f4fc-dbd7-49c5-9672-d2a03f1700b6"
+              LastKnownName="ReportGenerator"
+              LastKnownLocation="Package7_1826.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="3b0b7ad9-b207-4eec-9f28-487acc8dc2f6"
+            name="GetReport"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="bd0b0b9e-784d-482f-aa32-bccb39e02a17"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FЖДТУ%2F4 курс%2FКурсова%2FWorkull%2FWorkull%2Fbin%2FWorkull.dll&quot; Namespace%3DWorkull.Models.Report Type%3DHtmlReportGenerator Member%3DGetReport"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="05439cc7-d303-403a-b499-ec514a384080"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a00fbf21-c3f3-4d25-b854-3ee6c808a2bd">
+                    <propertyInstance
+                      Id="7c24a936-811e-4411-afc1-bad13767fa88"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5cb7ddd4-067d-492a-bea2-f27f5bf23a9d">
+                    <propertyInstance
+                      Id="2fea5c77-ebdc-489c-aca9-a3729b429306"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a65ca351-7190-43e9-8457-8a64fd4e3eb4">
+                    <propertyInstance
+                      Id="1d8a0335-8ef3-4726-8620-8b6b1695e426"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="8120bb8a-7f0b-42fe-8224-1ea47742f754">
+                    <propertyInstance
+                      Id="8ff87e28-27c2-44d7-af03-87e284753d2c"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="aedb20d2-cc6b-4225-9229-c782acf319de">
+                    <propertyInstance
+                      Id="3e0540d9-d61a-404f-a4c5-dea1745901ab"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0ec19dcf-97d9-4206-8b9b-82a0398ac6f9">
+                    <propertyInstance
+                      Id="7cb50f22-0a15-48f0-8098-c59b30a4f84e"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="c6e92960-7be6-4961-8c63-1f87cf286b9f"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="71c254af-b68b-488a-81c3-d06693139aff"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package5_1826.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="fd59e659-c1d4-4bdc-b679-3cea961582e5"
+            name="HtmlReportGenerator"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="f936cb24-82a8-4ef5-9f97-ee1f469d5abf"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FЖДТУ%2F4 курс%2FКурсова%2FWorkull%2FWorkull%2Fbin%2FWorkull.dll&quot; Namespace%3DWorkull.Models.Report Type%3DHtmlReportGenerator Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="8057d2dc-a747-4498-8381-c936fd57955b"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="cb951348-370a-445a-ac3e-4a853dec8aa9">
+                    <propertyInstance
+                      Id="eda1b575-c140-42dc-b751-8364e7d3a440"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="18195bdb-06c9-4984-bfed-469057c48bf9">
+                    <propertyInstance
+                      Id="f674296d-be03-4539-8932-766036b11111"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="17d76a83-02f5-40ff-afb7-28b64d4e0011">
+                    <propertyInstance
+                      Id="65777aed-5d8f-42f6-9fa3-f1a5c7f1202b"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="f95e2e21-f893-4441-9144-a4750f06dee2">
+                    <propertyInstance
+                      Id="17268247-b03e-4151-9d27-c41ae8359f34"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c169258b-65be-4389-9b7f-c63183e5a620">
+                    <propertyInstance
+                      Id="b834bf75-01cf-4445-bf76-e712d479e9a5"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="34e29ad4-5eae-411f-b526-f26d818687a9">
+                    <propertyInstance
+                      Id="d229be14-506e-4e35-8e83-3e977472b360"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <class
+        Id="4b9133d2-d91e-46ea-82cb-8b5070939b25"
+        name="PdfReportGenerator"
+        isAbstract="false"
+        isLeaf="false"
+        isActiveClass="false">
+        <referencesInternal>
+          <reference
+            Id="9e78a55d-4f3a-4395-8e0f-9109b59a9ce9"
+            handle="viewcode://./CodeSchema_Class?Assembly%3D&quot;file:%2F%2F%2FD:%2FЖДТУ%2F4 курс%2FКурсова%2FWorkull%2FWorkull%2Fbin%2FWorkull.dll&quot; Namespace%3DWorkull.Models.Report Type%3DPdfReportGenerator"
+            tag="ViewCode" />
+        </referencesInternal>
+        <appliedStereotypesInternal>
+          <stereotypeInstance
+            Id="11937e75-28da-4268-81d3-20053f5fd703"
+            name="class"
+            profile="CSharpProfile">
+            <propertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="b144a3a4-a497-42fa-8770-854996ac8c6b">
+                <propertyInstance
+                  Id="9f5be387-914c-48d3-8727-4339003a27f4"
+                  name="ClrAttributes" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aab68f6e-4de3-4d8f-9e1b-5709fcb024e1">
+                <propertyInstance
+                  Id="4b9e44e8-7753-457f-839c-0d7bd91810cd"
+                  name="IsPartial"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="a3309c30-a72e-4b3b-a9cc-efeff49a8cc5">
+                <propertyInstance
+                  Id="162297d0-16b3-4d24-88da-2173f5d6f61b"
+                  name="IsStatic"
+                  value="False" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="aee6aace-96f8-4621-81e2-b31453bd4fbb">
+                <propertyInstance
+                  Id="16fb3d81-29f1-430e-9dd6-c8d0d5aef2e9"
+                  name="IsUnsafe"
+                  value="false" />
+              </stereotypeInstanceHasPropertyInstances>
+              <stereotypeInstanceHasPropertyInstances
+                Id="12323324-48d2-4737-a982-b6bae8c99461">
+                <propertyInstance
+                  Id="47533bad-a574-4bd4-a968-638bb260154c"
+                  name="PackageVisibility"
+                  value="internal" />
+              </stereotypeInstanceHasPropertyInstances>
+            </propertyInstances>
+          </stereotypeInstance>
+        </appliedStereotypesInternal>
+        <generalsInternal>
+          <generalization
+            Id="30f6fa01-d3e8-481c-a3ca-30edcd448c33"
+            isSubstitutable="false">
+            <classMoniker
+              Id="76c8f4fc-dbd7-49c5-9672-d2a03f1700b6"
+              LastKnownName="ReportGenerator"
+              LastKnownLocation="Package7_1826.uml" />
+          </generalization>
+        </generalsInternal>
+        <ownedOperationsInternal>
+          <operation
+            Id="fea3a056-563b-4e0d-998a-de00ed739a02"
+            name="GetReport"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="b8af42fd-267e-4dbb-a08e-0c1aee77b171"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FЖДТУ%2F4 курс%2FКурсова%2FWorkull%2FWorkull%2Fbin%2FWorkull.dll&quot; Namespace%3DWorkull.Models.Report Type%3DPdfReportGenerator Member%3DGetReport"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="4a4257b5-978c-4bfe-b5ab-df9ab1295c81"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="2992dfd1-7581-4ff5-bd12-f1d375ea7921">
+                    <propertyInstance
+                      Id="532fa83a-bcbc-40ed-aa48-bf9439e61e79"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c433b894-5a97-4f7b-85b3-eda7fae2f034">
+                    <propertyInstance
+                      Id="b6fb5292-0a2c-4500-bc06-55337d3d75dd"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a61fe663-c0e7-48bc-88a2-44b895b41cf5">
+                    <propertyInstance
+                      Id="8771adc5-86e5-4ab1-b120-80b82cd13075"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="a2f9f156-24b9-4692-acc4-48588f3eb418">
+                    <propertyInstance
+                      Id="ac40e821-4f46-480c-b7cf-288ec2e7f018"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c317cde1-5150-4763-9501-a5286e1a4248">
+                    <propertyInstance
+                      Id="5760620b-c77d-481c-8add-67aa3f63c0c4"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="820400e3-aa79-4689-870c-e16c93af69fb">
+                    <propertyInstance
+                      Id="1896b7af-5c0b-406b-b27d-c1ca7055fb77"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+            <ownedParameters>
+              <operationHasOwnedParameters>
+                <parameter
+                  Id="bdc54c8c-d0b9-4552-affd-22d22de77dc1"
+                  direction="Return">
+                  <type_NamedElement>
+                    <classMoniker
+                      Id="71c254af-b68b-488a-81c3-d06693139aff"
+                      LastKnownName="ActionResult"
+                      LastKnownLocation="Package5_1826.uml" />
+                  </type_NamedElement>
+                </parameter>
+              </operationHasOwnedParameters>
+            </ownedParameters>
+          </operation>
+          <operation
+            Id="63933d3d-a041-413f-8543-12e6edfd2c51"
+            name="PdfReportGenerator"
+            isLeaf="false"
+            isStatic="false"
+            isAbstract="false"
+            concurrency="Sequential"
+            isQuery="false">
+            <referencesInternal>
+              <reference
+                Id="c41e7eb7-55bb-490e-9302-c51700acbe91"
+                handle="viewcode://./CodeSchema_Method?Assembly%3D&quot;file:%2F%2F%2FD:%2FЖДТУ%2F4 курс%2FКурсова%2FWorkull%2FWorkull%2Fbin%2FWorkull.dll&quot; Namespace%3DWorkull.Models.Report Type%3DPdfReportGenerator Member%3D.ctor"
+                tag="ViewCode" />
+            </referencesInternal>
+            <appliedStereotypesInternal>
+              <stereotypeInstance
+                Id="a5a868f9-266c-490a-8e25-b3410c0efc14"
+                name="method"
+                profile="CSharpProfile">
+                <propertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="dc43fa1a-aa7d-4bd6-bf1b-516753a7cc26">
+                    <propertyInstance
+                      Id="51352ed5-33a3-496f-b9bd-e5a6536db4bc"
+                      name="ClrAttributes" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="c3ae21e9-088f-488c-8938-f45cd8929373">
+                    <propertyInstance
+                      Id="862a40aa-9f01-4084-8111-940c0255a65a"
+                      name="IsPartial"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="5fc621c5-a3a3-483a-907c-e33861177d82">
+                    <propertyInstance
+                      Id="83742cf9-880b-4123-b854-8802c6f384cc"
+                      name="IsUnsafe"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="900d7089-21d4-4e1a-8546-ae991c32f6f3">
+                    <propertyInstance
+                      Id="9f76136f-1390-4d82-acda-0a563fbee87b"
+                      name="Inheritance"
+                      value="none" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="4cf440aa-584f-4259-b6a5-93a6bdef4e22">
+                    <propertyInstance
+                      Id="98574fb8-94dc-439d-8b07-ef8e27ccd457"
+                      name="PackageVisibility"
+                      value="internal" />
+                  </stereotypeInstanceHasPropertyInstances>
+                  <stereotypeInstanceHasPropertyInstances
+                    Id="0c222062-6a47-42d8-be0a-7f8582143eff">
+                    <propertyInstance
+                      Id="14f2a44f-42a5-422f-895b-289b4230959b"
+                      name="params"
+                      value="false" />
+                  </stereotypeInstanceHasPropertyInstances>
+                </propertyInstances>
+              </stereotypeInstance>
+            </appliedStereotypesInternal>
+          </operation>
+        </ownedOperationsInternal>
+      </class>
+    </packageHasNamedElement>
+  </packagedElements>
+</package>

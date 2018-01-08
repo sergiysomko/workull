@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Data.Entity;
 
 namespace Workull.Controllers
 {
@@ -23,30 +24,61 @@ namespace Workull.Controllers
             return View();
         }
         [HttpPost]
-        public string Create(Person person)
+        public ActionResult Create(Person person)
         {
             db.Persons.Add(person);
             db.SaveChanges();
-            return "OK";
+            return Redirect("~/Home/Index");
         }
         [HttpGet]
         public ActionResult Delete(int id)
         {
-            Person deletedPerson =  db.Persons.ToList().First(p => p.Id == id);
-            Console.WriteLine("hello");
+            Person deletedPerson =  db.Persons.ToList().FirstOrDefault(p => p.Id == id);
+           
             if (deletedPerson == null)
             {
-                throw new HttpException(404, "Person not found");
+                return HttpNotFound();
             }
             return View(deletedPerson);
         }
         [HttpPost]
         public ActionResult Delete (Person person)
         {
-            Person deletedPerson = db.Persons.First(p => p.Id == person.Id);
+            Person deletedPerson = db.Persons.FirstOrDefault(p => p.Id == person.Id);
+            if (deletedPerson == null)
+            {
+                return HttpNotFound();
+            }
             db.Persons.Remove(deletedPerson);
             db.SaveChanges();
             return Redirect("~/Home/Index");
+        }
+
+        [HttpGet]
+        public ActionResult Edit(int id)
+        {
+            Person person = db.Persons.FirstOrDefault(p => p.Id == id);
+            if (person == null)
+            {
+                return HttpNotFound();
+            }
+            return View(person);
+        }
+        [HttpPost]
+        public ActionResult Edit(Person person)
+        {
+            db.Entry(person).State = EntityState.Modified;
+            db.SaveChanges();
+            return Redirect("~/Home/Index");
+        }
+        public ActionResult Details(int id)
+        {
+            Person person = db.Persons.FirstOrDefault(p => p.Id == id);
+            if (person == null)
+            {
+                return HttpNotFound();
+            }
+            return View(person);
         }
 
     }

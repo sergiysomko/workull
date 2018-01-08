@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.40629.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Workull", "Workull\Workull.csproj", "{687F66B8-11C4-4380-A29A-5F6F4CC13393}"
 EndProject
+Project("{F088123C-0E9E-452A-89E6-6BA2F21D5CAC}") = "ModelingProject1", "ModelingProject1\ModelingProject1.modelproj", "{B57E128F-A0B6-407C-B66E-FE654F19D0E7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{687F66B8-11C4-4380-A29A-5F6F4CC13393}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{687F66B8-11C4-4380-A29A-5F6F4CC13393}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{687F66B8-11C4-4380-A29A-5F6F4CC13393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B57E128F-A0B6-407C-B66E-FE654F19D0E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B57E128F-A0B6-407C-B66E-FE654F19D0E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B57E128F-A0B6-407C-B66E-FE654F19D0E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B57E128F-A0B6-407C-B66E-FE654F19D0E7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
